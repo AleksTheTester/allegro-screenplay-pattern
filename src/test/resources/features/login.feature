@@ -1,13 +1,13 @@
 Feature: Allegro login
 
-  Background:
-    Given User open allegro home page
-
   Scenario Outline: Login with wrong credentials
     When User open allegro login page
     And User type "<login>" and "<password>"
     And User click login button
     Then User should see validation message
+      | Login, e-mail lub hasło są nieprawidłowe |
+      | Podaj hasło                              |
+      | Podaj login lub e-mail                   |
 
     Examples:
       | login    | password |

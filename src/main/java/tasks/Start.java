@@ -4,7 +4,7 @@ package tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
-import page_objects.StartPage;
+import pageobjects.pages.StartPage;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
